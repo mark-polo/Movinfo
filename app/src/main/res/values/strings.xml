@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Movinfo</string>
+    <string name="movinfo">Movinfo</string>
+    <string name="addBtn">Add</string>
+    <string name="hh">hh</string>
+    <string name="smth">smth</string>
+    <string name="enter_movie_name">Enter movie name</string>
+    <string name="enter_movie_year">Enter movie year</string>
+    <string name="enter_director">Enter director</string>
+    <string name="enter_description">Enter description</string>
+    <string name="batman">Batman</string>
+    <string name="name">Name : </string>
+    <string name="year">Year :</string>
+    <string name="_2005">2005</string>
+    <string name="director">Director :</string>
+    <string name="luckas">Nolan</string>
+    <string name="description">Description :</string>
+    <string name="movie_desc">Smth smth smth smth smth smth smth smth smth smth smth smth smth smth smth v smth smth smth v smth smth smth</string>
+    <string name="add_image_from_galery">Add image from galery</string>
+</resources>

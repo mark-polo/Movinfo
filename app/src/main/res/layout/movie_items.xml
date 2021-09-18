@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true"
+        app:cardElevation="8dp"
+        app:cardMaxElevation="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/posterImg"
+                android:layout_width="84dp"
+                android:layout_height="100dp"
+                android:contentDescription="@string/hh"
+                android:padding="5dp"
+                android:src="@drawable/img" />
+
+            <TextView
+                android:id="@+id/filmName"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="@string/smth"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@+id/posterImg"/>
+
+            <TextView
+                android:id="@+id/filmYear"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="@string/smth"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@+id/filmName" />
+
+            <TextView
+                android:id="@+id/filmDirector"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/smth"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@+id/posterImg"
+                android:layout_below="@+id/filmYear"/>
+
+            <TextView
+                android:id="@+id/filmDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/smth"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@+id/posterImg"
+                android:layout_below="@+id/filmDirector" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

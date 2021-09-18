@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "615528801012",
+    "project_id": "movinfo-98cfc",
+    "storage_bucket": "movinfo-98cfc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:615528801012:android:8367a078bd13b9314434a1",
+        "android_client_info": {
+          "package_name": "com.mrm.movinfo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "615528801012-gvkp9sfp0vhl85kgm0b28htda1phqeme.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mrm.movinfo",
+            "certificate_hash": "86aacd43cb18c1221eec809ad38cecf59f6a8732"
+          }
+        },
+        {
+          "client_id": "615528801012-pv42vube3jg4n3085001cpd83epgogsb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLXqOrfqLAdBmYa4rJVKiWct5bfYiyCvA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "615528801012-pv42vube3jg4n3085001cpd83epgogsb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
